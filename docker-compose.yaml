@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  vanity:
+    image: feeeei/vanity-generator:latest
+    environment:
+      - WALLET=tron
+      - SUFFIX=FEEEEL
