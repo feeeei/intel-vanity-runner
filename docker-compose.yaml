@@ -4,5 +4,5 @@ services:
   vanity:
     image: feeeei/vanity-generator:latest
     environment:
-      - WALLET=tron
-      - SUFFIX=FEEEEL
+      - WALLET=dot
+      - SUFFIX=Satoshi
